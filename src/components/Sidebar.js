@@ -39,8 +39,8 @@ export default function Sidebar(){
           <div class="titulo">
             Sugestões para você
             <div>Ver tudo</div>
-          </div>
-        {suggestedComponents}
+        </div>
+          {suggestedComponents}
         </div>
 
         <div class="links">

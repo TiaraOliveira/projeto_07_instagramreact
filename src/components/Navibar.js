@@ -1,4 +1,4 @@
-import Icones from "./IconsNavibar"
+import IconsNavibar from "./IconsNavibar"
 export default function Navibar(){
     return(
       <div class="navbar">
@@ -21,7 +21,7 @@ export default function Navibar(){
             <input type="text" placeholder="Pesquisar" />
           </div>
   
-          <Icones />
+          <IconsNavibar />
           <div class="icones-mobile">
             <ion-icon name="paper-plane-outline"></ion-icon>
           </div>

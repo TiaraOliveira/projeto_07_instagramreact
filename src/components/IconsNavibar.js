@@ -1,23 +1,13 @@
-function IconsTopo(props){
-    return(
-        <ion-icon name={props.icon}></ion-icon>
-        
-)
-  }
   const iconsTopo = [
-    {icon: "paper-plane-outline" }, 
-    {icon: "compass-outline"},
-    {icon: "heart-outline" }, 
-    {icon: "person-outline"}, 
+    "paper-plane-outline", "compass-outline","heart-outline", "person-outline", 
 ]
   
-export default function Icones(){
-  
-    const IconsTopoComponents = iconsTopo.map(item =><IconsTopo IconsTopo={item.icon}  />)
+export default function IconsNavibar(){
+
    
       return(
         <div class="icones">
-            {IconsTopoComponents}
+            {iconsTopo.map(item =><ion-icon name={item}></ion-icon>)}
       </div>
 
       )

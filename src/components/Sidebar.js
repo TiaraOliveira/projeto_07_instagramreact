@@ -1,3 +1,4 @@
+import SugestaoAcima from "./SugestaoAcima"
 function Sugestao(props){
   return(
     <div class="sugestao">
@@ -27,13 +28,7 @@ export default function Sidebar(){
  
     return(
         <div class="sidebar">
-        <div class="usuario">
-          <img src="assets/img/catanacomics.svg" />
-          <div class="texto">
-            <strong>catanacomics</strong>
-            Catana
-          </div>
-        </div>
+        <SugestaoAcima />
 
         <div class="sugestoes">
           <div class="titulo">

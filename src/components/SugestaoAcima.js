@@ -21,7 +21,7 @@ function Sugestaoup(props){
    
       return(
         
-        <div>{suggestedComponents}</div>
+        <>{suggestedComponents}</>
           
       )
   }

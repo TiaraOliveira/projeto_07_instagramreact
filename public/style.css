@@ -178,6 +178,14 @@ body {
 
 .post .usuario, .post .topo img, .post .fundo img, .post ion-icon, .post strong {
   cursor: pointer;
+  visibility: visible;
+}
+
+.red{
+  color: red !important;
+}
+.preta{
+  color: #262626 !important;
 }
 
 .post .conteudo img {
